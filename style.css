@@ -1,0 +1,21 @@
+.start p {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: darkorange;
+  text-decoration: none;
+  margin: 0;
+}
+
+.start a {
+  text-decoration: none;
+}
+.start {
+  background-color: rgb(78, 36, 243);
+  border: solid 3px rgb(245, 245, 245);
+  position: absolute;
+  top: 300;
+  left: 180;
+  padding: 0 10px;
+  cursor: pointer;
+}

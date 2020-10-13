@@ -1,12 +1,27 @@
 <html>
   <head>
     <title>Nyan Kat</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="app"></div>
+    <audio
+      id="bg-music"
+      src="/sounds/galactic.wav"
+      autoplay="autoplay"
+      loop="loop"
+    ></audio>
+    <audio id="collision" src="/sounds/TomCat.mp3"></audio>
+    <div id="app">
+      <div class="start" id="start">
+        <a href="#">
+          <p>START</p>
+        </a>
+      </div>
+    </div>
     <script src="js/data.js"></script>
     <script src="js/Enemy.js"></script>
     <script src="js/engine-utilities.js"></script>
+    <script src="js/Text.js"></script>
     <script src="js/Engine.js"></script>
     <script src="js/Player.js"></script>
     <script src="js/main.js"></script>
